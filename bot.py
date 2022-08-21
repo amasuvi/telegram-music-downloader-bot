@@ -1,4 +1,4 @@
-import os
+?import os
 import youtube_dl
 import telepotpro
 from random import randint
@@ -116,7 +116,7 @@ class Chat:
             try:
                 self.send_audio(file_name)
                 self.delete_message(downloading_message)
-                self.send_message('✅ Sucess!')
+                self.send_message('✅ سه رکه وتن!')
                 print ("\nSucess!\n")
             except:
                 print("\nError")
